@@ -17,6 +17,7 @@
         font-family: "Spoqa Han Sans Neo", "sans-serif";
         margin: 0;
         padding: 0;
+        /* 이렇게 해 놓은 덕분에 각각의 마진들을 싹 다 없애고 시작 */
       }
 
       body {
@@ -27,16 +28,19 @@
 
       .container {
         max-width: 64rem;
+        /* 1 rem : 시스템에 기본적으로 정의되어있는 기본크기, 정확한 지정값이 있지는 않음 : 1 rem = 16px */
         background-color: #f1eee8;
         padding: 30px 30px;
       }
 
       img {
         max-width: 100%;
+        /* 이미지의 최대 크기가 웹 크기를 넘어가지 않도록 해줌 */
         margin-bottom: 8px;
       }
 
       .callout {
+        /* 노란박스 이름붙이기 */
         border-radius: 8px;
         background-color: #dcccad;
         padding: 1rem;
@@ -69,6 +73,10 @@
         color: #24211d;
         margin-bottom: 20px;
       }
+
+      /* p { 
+        margin-bottom : 0.5rem
+      } 이렇게 전체 p태그에 마진 씌워놓고 하면 편하다 */
     </style>
   </head>
   <body>
@@ -107,20 +115,22 @@
       >
         2023.01.04
       </p>
-      <img
-        src="../../../assets/pasta-carbonara.jpg"
-        alt="흰 접시 위에 담긴 카르보나라 파스타 관찰레가 같이 버무려져있다"
-      />
-      <p
-        style="
-          font-weight: 400px;
-          font-size: 14px;
-          color: #585550;
-          padding-bottom: 24px;
-        "
-      >
-        사진: Chelsie Craig, 스타일링: Molly Baz
-      </p>
+      <figure>
+        <img
+          src="../../../assets/pasta-carbonara.jpg"
+          alt="흰 접시 위에 담긴 카르보나라 파스타 관찰레가 같이 버무려져있다"
+        />
+        <p
+          style="
+            font-weight: 400px;
+            font-size: 14px;
+            color: #585550;
+            padding-bottom: 24px;
+          "
+        >
+          <figcaption>사진: Chelsie Craig, 스타일링: Molly Baz</figcaption>
+        </p>
+      </figure>
       <p style="padding-bottom: 16px">
         <strong style="font-weight: 500px; font-size: 18px; color: #24211d"
           >총 소요 시간 24분</strong
