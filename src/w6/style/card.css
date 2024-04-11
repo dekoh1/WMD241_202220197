@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card.card--color-blue {
+  background-color: oklch(98% 0.025 200);
+}
+body {
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* body 안쪽에 폰트 내용들이 있으므로 여기다가 넣어주는게 좋음 */
+}
+
+.card {
+  max-width: 25rem;
+  background-color: oklch(96% 0.025 90);
+  overflow-x: hidden;
+  padding: 1rem;
+  border-radius: 12px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin-top: 48px;
+}
+
+/* .card--color-blue {
+  background-color: oklch(98% 0 200);
+} */
+
+/* 먼저 쓰인것보다 나중에 써인게 힘이 더 강함 aka 레이어 순서
+or ex) .card를 앞에 붙이면 됨 */
+
+.card:first-child {
+  margin-top: 0;
+}
+
+/* psuedo selector 유사 셀렉터 */
+
+.card_img {
+  width: 100%;
+}
+
+.card__top {
+  /* background-color: oklch(50% 0.2 120); */
+  /* margin: 16px; */
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+}
+
+.card__bottom {
+  padding: 16px;
+}
+
+.card__p {
+  margin-top: 32px;
+}
+
+.card__title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.card__subtitle {
+  font-size: 14px;
+  margin-top: 4px;
+  line-height: 1.5rem;
+}
+
+.card__bottom .card__title {
+  font-weight: 400;
+}
+
+/* .card__bottom > .card__title {
+  font-weight : 400;
+ } */
+
+.card__bottom .card__subtitle {
+  margin-top: 0;
+}
