@@ -11,7 +11,7 @@ body {
 h2 {
   margin: auto;
   font-size: 22px;
-  padding-bottom: 18px;
+  padding-bottom: 12px;
   padding-top: 70px;
 }
 .container {
@@ -168,7 +168,7 @@ h5 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 23px;
   margin: auto;
   padding-bottom: 10px;
   padding-top: 0px;
@@ -177,7 +177,7 @@ h3 {
 h4 {
   font-size: 15px;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
   padding-top: 40px;
 }
 .white-text {
@@ -228,4 +228,9 @@ h4 {
   padding-left: 10px;
   padding-top: 12px;
   padding-right: 7px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 800;
 }
