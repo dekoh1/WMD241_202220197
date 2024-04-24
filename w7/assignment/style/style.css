@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0%;
+  margin: auto;
   background-color: #191a1b;
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -127,6 +127,7 @@ html {
 }
 
 .big-white {
+  margin: auto;
   background-color: white;
   height: 950px;
   border-width: 600;
