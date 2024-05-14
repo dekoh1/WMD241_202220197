@@ -3,20 +3,136 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>10주차 과제</title>
-    <link rel="stylesheet" href="./style.css"
+    <title>Stark Library</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="section">
-      <!-- <h2>flex justify-content</h2> -->
-      <div
-        class="container flex-container flex-container-opt-1 flex-container-opt-2"
-      >
-        <div>USE CASES</div>
-        <div>PRICING</div>
-        <div>SUPPORT</div>
-        <div>RESOURCES</div>
+    <header>
+      <div class="header-content">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">USE CASES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">RESOURCES</a></li>
+          </ul>
+          <div class="auth-buttons">
+            <button class="login">LOG IN</button>
+            <button class="start-trial">START FREE TRIAL</button>
+          </div>
+        </nav>
       </div>
-    </div>
+    </header>
+    <main>
+      <aside class="sidebar">
+        <input type="text" placeholder="Search Library" />
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+        <div class="contribute">
+          <h3>Contribute to Stark</h3>
+          <p>Got any accessibility resources or news?</p>
+          <button>Submit a Resource</button>
+        </div>
+      </aside>
+      <section class="content">
+        <section class="new-library">
+          <div class="section-header">
+            <h2>New in the Library</h2>
+            <a href="#">VIEW ALL</a>
+          </div>
+          <p>Newly added accessibility resources, guides, and more.</p>
+          <div class="grid">
+            <div class="resource">
+              <div class="blueresource">RESOURCES</div>
+              Inclusive Publishing
+            </div>
+            <div class="resource">
+              <div class="blueresource">RESOURCES</div>
+              The APLN (Accessible Publishing...
+            </div>
+            <div class="resource">
+              <div class="blueresource">RESOURCES</div>
+              Making Accessible Books
+            </div>
+            <div class="resource">
+              <div class="blueresource">RESOURCES</div>
+              The DAISY Consortium’s Accessible...
+            </div>
+            <div class="resource">
+              <div class="blueresource">RESOURCES</div>
+              Language, Please: Style Guide & Resources for...
+            </div>
+            <div class="resource">
+              <div class="blueresource">RESOURCES</div>
+              4 steps to more inclusive, precise language
+            </div>
+          </div>
+        </section>
+        <section class="featured-collections">
+          <div class="section-header">
+            <h2>Featured Collections</h2>
+            <a href="#">VIEW ALL</a>
+          </div>
+          <p>Handpicked and curated collections around accessibility.</p>
+          <div class="grid">
+            <div class="collection">Disability Employment</div>
+            <div class="collection">Making Accessible Color Combos</div>
+            <div class="collection">
+              Tips and Tricks for Inclusive Social Media
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <div class="link-section">
+            <h4>USE CASES</h4>
+            <ul>
+              <li><a href="#">For Designers</a></li>
+              <li><a href="#">For Developers</a></li>
+              <li><a href="#">For Product Managers</a></li>
+              <li><a href="#">For Compliance Managers</a></li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Library</a></li>
+              <li><a href="#">Release Notes</a></li>
+              <li><a href="#">Stark Community</a></li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <h4>HELP</h4>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Support Docs</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Feature Requests</a></li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <h4>COMPANY</h4>
+            <ul>
+              <li><a href="#">Stark Framework</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Code of Conduct</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>MADE REMOTELY WITH LOVE BY STARK LAB, INC. COPYRIGHT 2023</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
