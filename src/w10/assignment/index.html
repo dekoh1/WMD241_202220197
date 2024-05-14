@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stark Library</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -17,7 +21,7 @@
             <li><a href="#">RESOURCES</a></li>
           </ul>
           <div class="auth-buttons">
-            <button class="login">LOG IN</button>
+            <button class="login" ; style="color: #381fd1">LOG IN</button>
             <button class="start-trial">START FREE TRIAL</button>
           </div>
         </nav>
@@ -25,12 +29,34 @@
     </header>
     <main>
       <aside class="sidebar">
-        <input type="text" placeholder="Search Library" />
+        <h4
+          style="
+            margin: auto;
+            padding-bottom: 10px;
+            color: rgb(119, 119, 119);
+            font-weight: 100;
+          "
+        >
+          Search Library
+        </h4>
+        <input type="text" placeholder="" />
         <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Collections</a></li>
-            <li><a href="#">Categories</a></li>
+          <ul style="font-weight: 31.25rem">
+            <li>
+              <a href="#" style="color: #381fd1"
+                ><h4 style="margin: 0%; padding-top: 12px">Home</h4></a
+              >
+            </li>
+            <li>
+              <a href="#" style="color: rgb(91, 91, 91)"
+                ><h4 style="margin: 0%; padding-top: 12px">Collections</h4></a
+              >
+            </li>
+            <li>
+              <a href="#" style="color: rgb(91, 91, 91)"
+                ><h4 style="margin: 0%; padding-top: 12px">Categories</h4></a
+              >
+            </li>
           </ul>
         </nav>
         <div class="contribute">
@@ -42,47 +68,65 @@
       <section class="content">
         <section class="new-library">
           <div class="section-header">
-            <h2>New in the Library</h2>
-            <a href="#">VIEW ALL</a>
+            <h1 style="font-size: 48px; font-weight: 700">
+              New in the Library
+            </h1>
+            <a href="#" style="padding-top: 70px">VIEW ALL</a>
           </div>
-          <p>Newly added accessibility resources, guides, and more.</p>
+          <div class="mini">
+            <p style="margin-top: 0%; font-size: 20px">
+              Newly added accessibility resources, guides, and more.
+            </p>
+          </div>
           <div class="grid">
             <div class="resource">
               <div class="blueresource">RESOURCES</div>
-              Inclusive Publishing
+              <div class="inside">Inclusive Publishing</div>
             </div>
             <div class="resource">
               <div class="blueresource">RESOURCES</div>
-              The APLN (Accessible Publishing...
+              <div class="inside">The APLN (Accessible Publishing...</div>
             </div>
             <div class="resource">
               <div class="blueresource">RESOURCES</div>
-              Making Accessible Books
+              <div class="inside">Making Accessible Books</div>
             </div>
             <div class="resource">
               <div class="blueresource">RESOURCES</div>
-              The DAISY Consortium’s Accessible...
+              <div class="inside">The DAISY Consortium’s Accessible...</div>
             </div>
             <div class="resource">
               <div class="blueresource">RESOURCES</div>
-              Language, Please: Style Guide & Resources for...
+              <div class="inside">
+                Language, Please: Style Guide & Resources for...
+              </div>
             </div>
             <div class="resource">
-              <div class="blueresource">RESOURCES</div>
-              4 steps to more inclusive, precise language
+              <div class="blueresource">BLOGS & ARTICLES</div>
+              <div class="inside">
+                4 steps to more inclusive, precise language
+              </div>
             </div>
           </div>
         </section>
         <section class="featured-collections">
           <div class="section-header">
-            <h2>Featured Collections</h2>
-            <a href="#">VIEW ALL</a>
+            <h1>Featured Collections</h1>
+            <a href="#" style="padding-top: 70px">VIEW ALL</a>
           </div>
-          <p>Handpicked and curated collections around accessibility.</p>
+          <div class="mini">
+            <p style="margin-top: 0%; font-size: 20px">
+              Handpicked and curated collections around accessibility.
+            </p>
+          </div>
           <div class="grid">
-            <div class="collection">Disability Employment</div>
-            <div class="collection">Making Accessible Color Combos</div>
-            <div class="collection">
+            <div class="collection" style="background-color: #f7f6eb">
+              Disability Employment
+            </div>
+            <div class="collection" style="background-color: #f3f1f8">
+              Making Accessible Color Combos
+            </div>
+            <div class="collection" style="background-color: #f7f6eb">
               Tips and Tricks for Inclusive Social Media
             </div>
           </div>
@@ -90,6 +134,46 @@
       </section>
     </main>
     <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <div class="link-section">
+            <h4>USE CASES</h4>
+            <ul>
+              <li><a href="#">For Designers</a></li>
+              <li><a href="#">For Developers</a></li>
+              <li><a href="#">For Product Managers</a></li>
+              <li><a href="#">For Compliance Managers</a></li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Library</a></li>
+              <li><a href="#">Release Notes</a></li>
+              <li><a href="#">Stark Community</a></li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <h4>HELP</h4>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Support Docs</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Feature Requests</a></li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <h4>COMPANY</h4>
+            <ul>
+              <li><a href="#">Stark Framework</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Code of Conduct</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div class="footer-content">
         <div class="footer-links">
           <div class="link-section">
