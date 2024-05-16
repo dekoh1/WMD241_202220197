@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+.btn {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border: 1px solid #000;
+  margin-top: 1.25rem;
+}
